@@ -10,8 +10,10 @@ body {
 .main {
     text-align: center;
     padding: 50px;
-    background: linear-gradient(135deg, rgba(9, 255, 0, 0.551), rgba(128, 128, 128, 0.5)); /* Two semi-transparent RGBA backgrounds with background image */
+    /* background: linear-gradient(135deg, rgba(9, 255, 0, 0.551), rgba(128, 128, 128, 0.5)); Two semi-transparent RGBA backgrounds with background image */
     background-size: cover;
+    background: url(./random/randomimg/bgphoto.jpg);
+    background-position: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 50px auto;
     max-width: 1200px;
